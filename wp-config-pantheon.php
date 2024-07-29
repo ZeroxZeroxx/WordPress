@@ -107,4 +107,5 @@ if ( ! defined('PANTHEON_HOSTNAME' ) ) {
 $network = isset($_ENV["FRAMEWORK"]) && $_ENV["FRAMEWORK"] === "wordpress_network";
 if ( ! defined( 'DISABLE_WP_CRON' ) && $network === false) {
 	define( 'DISABLE_WP_CRON', true );
+	define('WP_ALLOW_REPAIR', true);
 }
