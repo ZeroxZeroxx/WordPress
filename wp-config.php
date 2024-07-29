@@ -74,6 +74,7 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 }
 
 /* That's all, stop editing! Happy Pressing. */
+define('WP_ALLOW_REPAIR', true);
 
 
 
